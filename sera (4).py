@@ -65,9 +65,9 @@ if uploaded_audio is not None:
     features = extract_feature(file_path, mfcc=True, chroma=True, mel=True)
 
     # ---- MODEL + SCALER + ENCODER LOADING ----
-    model = load_model("my_model_final_final.h5")
-    encoder = joblib.load("encoder.pkl")
-    scaler = joblib.load("scaler.pkl")
+    model = load_model("my_model_final_final(2).h5")
+    encoder = joblib.load("encoder(2).pkl")
+    scaler = joblib.load("scaler(2).pkl")
 
     # ---- PREDICTION ----
     features_scaled = scaler.transform(features.reshape(1, -1))

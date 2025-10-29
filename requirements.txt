@@ -1,0 +1,10 @@
+streamlit 
+sounddevice 
+scipy.io.wavfile 
+tempfile
+os
+soundfile
+numpy 
+librosa
+tensorflow
+joblib
